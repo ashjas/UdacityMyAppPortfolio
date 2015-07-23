@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -23,6 +24,31 @@ public class MainActivity extends ActionBarActivity {
 					.add(R.id.container, new PlaceholderFragment())
 					.commit();
 		}
+	}
+	public void onButtonClick(View view)
+	{
+		switch(view.getId())
+		{
+			case R.id.Buttonspotify:
+				Toast.makeText(this,R.string.SpotifyStremer,Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.Buttonscores:
+				Toast.makeText(this,R.string.ScoresApp,Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.Buttonlibrary:
+				Toast.makeText(this,R.string.LibraryApp,Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.ButtonBuildItBigger:
+				Toast.makeText(this,R.string.BuildItBigger,Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.ButtonXYZ:
+				Toast.makeText(this,R.string.XYZReader,Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.ButtonCapstone:
+				Toast.makeText(this,R.string.Capstone,Toast.LENGTH_SHORT).show();
+				break;
+		}
+
 	}
 
 

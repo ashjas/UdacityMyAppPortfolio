@@ -35,27 +35,34 @@
             <Button
                 android:text="@string/SpotifyStremer"
                 style="@style/StyleButton"
-                android:id="@+id/button"/>
+                android:onClick="onButtonClick"
+                android:id="@+id/Buttonspotify"/>
             <Button
                 android:text="@string/ScoresApp"
                 style="@style/StyleButton"
-                android:id="@+id/button"/>
+                android:onClick="onButtonClick"
+                android:id="@+id/Buttonscores"/>
             <Button
                 android:text="@string/LibraryApp"
                 style="@style/StyleButton"
-                android:id="@+id/button"/>
+                android:onClick="onButtonClick"
+                android:id="@+id/Buttonlibrary"/>
             <Button
                 android:text="@string/BuildItBigger"
                 style="@style/StyleButton"
-                android:id="@+id/button"/>
+                android:onClick="onButtonClick"
+                android:id="@+id/ButtonBuildItBigger"/>
             <Button
                 android:text="@string/XYZReader"
                 style="@style/StyleButton"
-                android:id="@+id/button"/>
+                android:onClick="onButtonClick"
+                android:id="@+id/ButtonXYZ"/>
             <Button
                 android:text="@string/Capstone"
                 style="@style/StyleButton"
-                android:id="@+id/button"/>
+                android:background="@color/Pink"
+                android:onClick="onButtonClick"
+                android:id="@+id/ButtonCapstone"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
